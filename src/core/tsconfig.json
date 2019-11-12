@@ -1,0 +1,13 @@
+{
+    "extends": "../../tsconfig",
+    "compilerOptions": {
+        "outFile": "dist/core.js",
+        "sourceMap": true,
+        "inlineSources": true,
+        "composite": true,
+        "declarationMap": true
+    },
+    "exclude": [
+        "./dist"
+    ]
+}

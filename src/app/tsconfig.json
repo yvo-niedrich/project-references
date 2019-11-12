@@ -1,0 +1,11 @@
+{
+    "extends": "../../tsconfig",
+    "compilerOptions": {
+        "outFile": "../../dist/bundle.js",
+        "sourceMap": true,
+        "inlineSources": true
+    },
+    "references": [
+        { "path": "../core", "prepend": true }
+    ]
+}

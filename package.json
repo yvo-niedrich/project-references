@@ -1,0 +1,16 @@
+{
+  "name": "red-herring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "tsc --build src/app",
+    "test": "echo \"no tests\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.2"
+  }
+}
